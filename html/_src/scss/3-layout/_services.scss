@@ -24,6 +24,16 @@
     @include ma-transition(all, 0.3s);
   }
 
+  .font-icon {
+  display: block;
+  width: 3rem;       /* equivalente a font-size */
+  height: 3rem;      /* asegura que sea cuadrado */
+  object-fit: contain; /* mantiene proporciones dentro del cuadro */
+     /* no afecta, pero lo dejo si después usas SVG */
+  transform-origin: center;
+  transition: all 0.3s ease;
+}
+
   .service-num {
     font-size: 5rem;
     font-weight: 800;
