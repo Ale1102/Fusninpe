@@ -29,6 +29,37 @@ Template Description: IT Solutions & Business Services Responsive HTML5 Bootstra
 - Dark Theme Rules
 ===*/
 /* start global, helper classes , Components Rules*/
+
+/*===================================================
+Proyecto: flex-it - Plantilla de sitio web responsiva HTML5 Bootstrap5 para Soluciones Informáticas y Servicios Empresariales
+Autor: amin-themes
+Versión: 2.0
+Último cambio: 22 de marzo de 2023
+Descripción de la plantilla: Plantilla de sitio web responsiva HTML5 Bootstrap5 para Soluciones Informáticas y Servicios Empresariales
+====================================================*/
+/*==
+- reglas globales y clases de ayuda
+- encabezados de página
+- sección principal (hero)
+- servicios
+- acerca de
+- portafolio
+- portafolio individual
+- nuestro equipo
+- nuestros clientes
+- preguntas frecuentes (FAQ)
+- testimonios
+- contáctanos
+- llamada a la acción (take-action)
+- pie de página (footer)
+- blog
+- página 404
+- precios
+- estadísticas
+- Reglas del tema oscuro (Dark Theme Rules)
+===*/
+/* inicio de las reglas globales, clases de ayuda y componentes */
+
 :root {
   /*Colors CSS Varibales*/
   /*================  main-color values */
@@ -3934,7 +3965,7 @@ body.rounded-btns .read-more {
   padding-bottom: 1rem;
 }
 .footer-menu-item .icon {
-  font-size: 0.75rem;
+  font-size: 1.3rem;
   width: 1.5rem;
   text-align: right;
   margin-right: 0.5rem;
@@ -3943,7 +3974,7 @@ body.rounded-btns .read-more {
 }
 .footer-menu-link {
   font-weight: 500;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   text-decoration: none;
   text-transform: capitalize;
   text-decoration: none;
